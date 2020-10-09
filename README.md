@@ -1,6 +1,5 @@
 Custom Calculator
 Built with HTML, CSS, and JavaScript
-by Jennalyn Kabiling
 
 This program/site is intended to calculate the user's input which is the price of their choice of cannabis strain, the local county, and dispensary taxes.
 
