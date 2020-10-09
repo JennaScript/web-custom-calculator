@@ -10,7 +10,7 @@ const unitsInput = document.querySelector('#units')
 costInput.addEventListener('input', calculateCost)
 dispensaryInput.addEventListener('input', calculateCost)
 countyInput.addEventListener('input', calculateCost)
-unitsInput.addEventListener('#units', calculateCost)
+unitsInput.addEventListener('input', calculateCost)
 
 // Creation of calculateCost function
 function calculateCost() {
