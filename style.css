@@ -1,7 +1,7 @@
 body {
     font-size: 20px;
     font-family: 'Cambria';
-    background-color: rgb(226, 178, 186);
+    background-color: plum; 
 }
 
 main {
@@ -12,8 +12,8 @@ main {
     margin-bottom: 10%;
     margin-left: 5em;
     margin-right: 5em;
-    background-color: lavender;
-    border: solid 5px purple;
+    background-color: powderblue;
+    border: solid 5px palevioletred;
     border-radius: 20%;    
 }
 
