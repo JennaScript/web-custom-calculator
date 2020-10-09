@@ -18,7 +18,7 @@ function calculateCost() {
     const dispensaryValue = parseFloat(dispensaryInput.value) 
     const countyValue = parseFloat(countyInput.value)
     const unitsValue = parseFloat(unitsInput.value)
-    const totalCost = parseFloat((totalDisplay + dispensaryValue + countyValue) * (unitsValue))
+    const totalCost = parseFloat(unitsValue * (totalDisplay + dispensaryValue + countyValue))
     display.innerHTML = totalCost.toFixed(2) 
     totalDisplay.innerHTML = totalCost.toFixed(2)
 }
