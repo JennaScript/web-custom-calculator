@@ -6,7 +6,6 @@ const total_items_input = document.querySelector('#total_items')
 
 // Creating constants for displays
 const show_total_cost_display = document.querySelector('#total_cost')
-const per_day_calc_display = document.querySelector('#episodes_per_day')
 
 // Adding event listeners for function
 retail_price_input.addEventListener('input', calculatePrice)
